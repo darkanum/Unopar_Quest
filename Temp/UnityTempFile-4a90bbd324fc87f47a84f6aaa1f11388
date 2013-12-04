@@ -1,0 +1,144 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_ANDROID
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:UNITY_ANDROID_API
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_0
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+"Assets/Qualcomm Augmented Reality/Scripts/CameraDevice.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/CloudRecoBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/CylinderTarget.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/CylinderTargetBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/DataSet.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/DataSetLoadBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/DataSetTrackableBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/DefaultInitializationErrorHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/DefaultTrackableEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/GLErrorHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/GeometryStructs.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/ICloudRecoEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/ILoadLevelEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/ITextRecoEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/ITrackableEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/ITrackerEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/IUserDefinedTargetEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/IVideoBackgroundEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/IVirtualButtonEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Image.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/ImageTarget.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/ImageTargetBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/ImageTargetBuilder.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/ImageTracker.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/BGRenderingBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/CameraDeviceImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/CloudRecoImageTargetImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/CylinderTargetImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/DataSetImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/IEditorCylinderTargetBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/IEditorDataSetTrackableBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/IEditorImageTargetBehaviours.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/IEditorMarkerBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/IEditorMultiTargetBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/IEditorTextRecoBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/IEditorTrackableBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/IEditorVirtualButtonBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/IEditorWordBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/ImageImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/ImageTargetBuilderImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/ImageTargetImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/ImageTrackerImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/MarkerImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/MarkerTrackerImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/MultiTargetImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/NullWebCamTexAdaptor.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/QCARMacros.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/QCARManagerImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/QCARRendererImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/QCARUnityImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/StateManagerImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/TargetFinderImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/TextTrackerImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/TextureRenderer.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/TrackableImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/TrackableSourceImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/TrackerManagerImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/VirtualButtonImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/WebCamImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/WebCamProfile.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/WebCamTexAdaptor.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/WebCamTexAdaptorImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/WordImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/WordListImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/WordManagerImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/WordResultImpl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/Wrapper/IQCARWrapper.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/Wrapper/QCARNativeWrapper.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/Wrapper/QCARNullWrapper.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/Wrapper/QCARWrapper.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/KeepAliveBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Marker.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/MarkerBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/MarkerTracker.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/MaskOutBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/MultiTarget.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/MultiTargetBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/QCARBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/QCARManager.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/QCARRenderer.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/QCARRuntimeUtilities.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/QCARUnity.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/SetBGCameraLayerBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/StateManager.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TargetFinder.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TextRecoBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TextTracker.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Trackable.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TrackableBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TrackableSource.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Tracker.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TrackerManager.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TurnOffBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TurnOffWordBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/UserDefinedTargetBuildingBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/VirtualButton.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/VirtualButtonBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/WebCamBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Word.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/WordBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/WordList.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/WordManager.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/WordResult.cs"
+Assets/Scripts/QuestComplete.cs
+Assets/Scripts/QuestManager.cs
+Assets/Scripts/Rotate.cs
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/2.0\System.Runtime.Serialization.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/2.0\System.Xml.Linq.dll"
